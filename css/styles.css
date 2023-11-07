@@ -1,0 +1,45 @@
+:root {
+    --primary-color: #2E2F42;
+    --second-color:#FFF;
+    --primary-link-color: #434455;
+    --accent-color: #4D5AE5;
+    --main-font: 'Roboto', sans-serif;
+  }
+  body {
+    font-family: var(--main-font);
+  }
+
+  /*---------Universal classes---------*/
+.list {
+    list-style-type: none;
+}
+.link {
+   text-decoration: none;
+}
+button {
+    cursor: pointer;
+}
+/*---------Header---------*/
+.header-logo {
+    color: var(--accent-color);
+font-family: var(--main-font);
+font-size: 18px;
+font-weight: 700;
+line-height: 1.16;
+letter-spacing: 0.54px;
+.header-logo-studio {
+}
+
+.header-nav-item {
+}
+.header-address {
+}
+.header-address-list {
+}
+.header-adress-item {
+}
+.header-adress-link {
+}
+
+
+
