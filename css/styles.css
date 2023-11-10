@@ -4,7 +4,8 @@
     --primary-link-color: #434455;
     --accent-color: #4D5AE5;
     --main-font: 'Roboto', sans-serif;
-    --other: #F4F4FD
+    --other: #F4F4FD;
+    --hover-focus-color: #404bbf;
   }
 
   body {
@@ -26,26 +27,27 @@ button {
 
 /*---------HEADER---------*/
 .header-logo {
-color: var(--accent-color);
+  color: var(--accent-color);
 font-family: "Raleway", sans-serif;
 font-size: 18px;
 font-weight: 700;
 line-height: 1.17;
 letter-spacing: 0.54px;
 text-transform: uppercase;
+}
+
 
 .header-logo-studio {
 color: var(--primary-color);
 font-family: 'Raleway', sans-serif;
 font-size: 18px;
-font-style: normal;
 font-weight: 700;
-line-height: 1.16;
+line-height: 1.17;
 letter-spacing: 0.54px;
-text-transform: uppercase
+text-transform: uppercase;
 }    
 
-.header-nav-item {
+.header-nav-link {
 color: var(--primary-color);
 font-family: var(--main-font);
 font-size: 16px;
@@ -54,18 +56,36 @@ line-height: 1.5;
 letter-spacing: 0.32px;
 }
 
+.header-nav-link:hover,
+.header-nav-link:focus {
+  color: var(--hover-focus-color);
+}
+
+  
+
 .header-adress-link {
 color: var(--primary-link-color);
 font-family: var(--main-font);
 font-size: 16px;
+font-style: normal;
 font-weight: 400;
 line-height: 1.5;
 letter-spacing: 0.32px;
 }
 
+.header-adress-link:hover,
+.header-adress-link:focus {
+  color: var(--hover-focus-color);
+}
+
 /*---------HERO---------*/
+.hero-section {
+background-color: var(--primary-color);
+}
+
 .hero-tittle {
 color: var(--second-color);
+text-align: center;
 font-family: var(--main-font);
 font-size: 56px;
 font-weight: 1.07;
@@ -74,11 +94,17 @@ letter-spacing: 1.12px;
 
 .hero-btn {
 color: var(--second-color);
+background-color: var(--accent-color);
 font-family: var(--main-font);
 font-size: 16px;
 font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.64px;
+}
+
+.hero-btn: :hover,
+.hero-btn: :focus {
+background-color: var(--hover-focus-color);
 }
 
 /*---------ADVANTAGES---------*/
@@ -139,6 +165,10 @@ letter-spacing: 0.32px;
 }
 
 /*---------FOOTER---------*/
+.footer {
+background-color: var(--primary-color);
+}
+
 .footer-logo-link {
 color: var(--accent-color);
 font-family: var(--main-font);
@@ -160,11 +190,14 @@ text-transform: uppercase;
 }
 
 .footer-text {
-    color: var(--other);
-    font-family: Roboto;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 1.5;
-    letter-spacing: 0.32px;
+color: var(--other);
+font-family: Roboto;
+font-size: 16px;
+font-weight: 400;
+line-height: 1.5;
+letter-spacing: 0.32px;
+}
+.footer-text: ::before{
+color: var(--other);
 }
 
