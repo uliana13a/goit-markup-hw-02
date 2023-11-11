@@ -36,7 +36,6 @@ letter-spacing: 0.54px;
 text-transform: uppercase;
 }
 
-
 .header-logo-studio {
 color: var(--primary-color);
 font-family: 'Raleway', sans-serif;
@@ -64,6 +63,7 @@ letter-spacing: 0.32px;
 .header-address {
 font-style: normal;
 }
+
 .header-adress-link {
 color: var(--primary-link-color);
 font-family: var(--main-font);
@@ -218,6 +218,7 @@ font-weight: 400;
 line-height: 1.5;
 letter-spacing: 0.32px;
 }
+
 .footer-text: ::before{
 color: var(--other);
 }
